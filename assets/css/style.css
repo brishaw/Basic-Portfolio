@@ -23,10 +23,13 @@
    a, a:visited {
        color: var(--body-font-color);
        text-decoration: none;
+       padding: 10px 15px;
    }
 
    a:hover {
        color: #4aaaa5;
+       background-color: #cccccc;
+       transition: 500ms ease all;
    }
 
    h1 {
@@ -69,8 +72,9 @@
    }
 
    nav ul {
-       margin-top: 17%;
-       transform: translate(0, -17%);
+       margin-top: 16%;
+       transform: translate(0, -16%);
+       /* margin-right: -25px; */
    }
 
    nav li {
@@ -79,7 +83,7 @@
 
    nav li::after {
        content: "|";
-       padding: 0 10px 0 15px;
+       /* padding: 0 10px 0 15px; */
        color: #efefef;
    }
 
