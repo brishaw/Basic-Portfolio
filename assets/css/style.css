@@ -129,3 +129,63 @@
        float: left;
        padding: 0 25px 0 0;
    }
+
+   /* styles for the portfolio page */
+
+   .gallery article {
+       display: inline-block;
+       margin-right: 34px;
+       margin-bottom: 52px;
+       position: relative;
+   }
+
+   .gallery article a {
+        position: absolute;
+        bottom: 9px;
+        height: 37px;
+        width: 100%;
+        padding-top: 23px;
+        background-color: #4aaaa5;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 17px;
+        color: #ffffff;
+   }
+
+   .gallery article a:hover {
+       transition: 500ms ease all;
+       background-color: orange;
+       color: black;
+   }
+
+   /* styles for the contact page */
+
+   label, input, textarea {
+       display: block;
+   }
+
+   label {
+       margin-bottom: 12px;
+   }
+
+   input, textarea {
+       width: 97%;
+       margin-bottom: 20px;
+       padding: 10px;
+       font-size: 10px;
+   }
+
+   input.contact_submit {
+       width: 115px;
+       height: 40px;
+       background-color: #4aaaa5;
+       border: none;
+       font-size: 100%;
+       color: #ffffff;
+   }
+
+   input.contact_submit:hover {
+       transition: 500ms ease all;
+       background-color: orange;
+       color: black;
+   }
