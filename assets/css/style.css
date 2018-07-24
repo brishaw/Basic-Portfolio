@@ -20,9 +20,19 @@
     background: url(../images/concrete_seamless.png) repeat;
    }
 
+   a, a:visited {
+       color: var(--body-font-color);
+       text-decoration: none;
+   }
+
+   a:hover {
+       color: #4aaaa5;
+   }
+
    h1 {
        font-family: Georgia, 'Times New Roman', Times, serif;
-       font-size: 27px;
+       font-size: 21px;
+       font-weight: bold;
    }
 
    header {
@@ -30,17 +40,92 @@
        height: 90px;
        background-color: #ffffff;
        border-bottom: 2px solid #cccccc;
+       margin-bottom: 38px;
    }
 
    header section {
        width: 960px;
+       height: 100%;
        margin: 0 auto;
    }
 
+   header section .logo {
+       /* width: fit-content; */
+       width: 250px;
+       height: 100%;
+       float: left;
+       background-color: #4aaaa5;
+   }
+
+   header section .logo h1 {
+       margin-top: 15%;
+       transform: translate(0, -15%);
+       text-align: center;
+       color: #ffffff;
+   }
+
+   nav {
+       float: right;
+   }
+
+   nav ul {
+       margin-top: 17%;
+       transform: translate(0, -17%);
+   }
+
+   nav li {
+       display: inline-block;
+   }
+
+   nav li::after {
+       content: "|";
+       padding: 0 10px 0 15px;
+       color: #efefef;
+   }
+
+   nav li:last-child::after {
+       content: "";
+   }
+
    main {
-       width: 960px;
+       width: 898px;
        height: auto;
+       padding: 40px 30px;
        margin: 0 auto;
        background-color: #ffffff;
        border: 1px solid #dddddd;
+   }
+
+   main h1 {
+       padding-bottom: 34px;
+       color: #4aaaa5;
+       border-bottom: 3px solid #dddddd;
+       margin-bottom: 30px;
+   }
+
+   main p {
+       line-height: 2;
+   }
+
+   footer {
+       width: 100%;
+       height: 60px;
+       position: fixed;
+       bottom: 0;
+       background-color: #666666;
+       border-top: 8px solid #4aaaa5;
+   }
+
+   footer section p {
+       text-align: center;
+       margin-top: 43px;
+       font-size: 10px;
+       color: #cccccc;
+   }
+
+   /* styles for the about page */
+
+   .bio img {
+       float: left;
+       padding: 0 25px 0 0;
    }
