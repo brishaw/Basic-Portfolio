@@ -148,7 +148,7 @@
         bottom: 9px;
         height: 37px;
         width: 100%;
-        padding-top: 23px;
+        padding: 23px 0 0 0;
         background-color: #4aaaa5;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -188,6 +188,12 @@
        height: 40px;
        background-color: #4aaaa5;
        border: none;
+
+       border-radius: 0; /* fixing the rounded corners on iphone 7 */
+       -o-border-radius: 0;
+       -moz-border-radius: 0;
+       -webkit-border-radius: 0;
+
        font-size: 100%;
        color: #ffffff;
    }
