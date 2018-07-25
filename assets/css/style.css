@@ -1,14 +1,3 @@
-/* * Teal color (used for headings and backgrounds): `#4aaaa5`
-   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
-   * Main header background color: `#ffffff`
-   * Main header border color: `#cccccc`
-   * Footer background color: `#666666`
-   * Main content background color: `#ffffff`
-   * Main content border color: `#dddddd`
-
-2. Fonts:
-   * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
-   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`. */
 
    :root {
     --body-font-color: #777777;
@@ -54,7 +43,6 @@
    }
 
    header section .logo {
-       /* width: fit-content; */
        width: 250px;
        height: 100%;
        float: left;
@@ -73,9 +61,8 @@
    }
 
    nav ul {
-       margin-top: 16%;
-       transform: translate(0, -16%);
-       /* margin-right: -25px; */
+       margin-top: 13.5%;
+       transform: translate(0, -13.5%);
    }
 
    nav li {
@@ -84,11 +71,12 @@
 
    nav li::after {
        content: "|";
-       /* padding: 0 10px 0 15px; */
+       margin-right: -5px;
        color: #efefef;
    }
 
    nav li:last-child::after {
+       margin-right: 0;
        content: "";
    }
 
