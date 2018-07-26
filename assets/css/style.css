@@ -8,7 +8,7 @@
    }
 
    a, a:visited {
-       color: var(--body-font-color);
+       color: #777777;
        text-decoration: none;
        padding: 10px 15px;
    }
@@ -43,7 +43,7 @@
        width: 250px;
        height: 100%;
        float: left;
-       background-color: #4aaaa5;#aa4a4f
+       background-color: #4aaaa5;
    }
 
    header section .logo:hover {
@@ -133,8 +133,6 @@
 
    .bio img {
        float: left;
-       /* padding: 0 25px 0 0; */
-
        transition: transform .5s;
    }
 
