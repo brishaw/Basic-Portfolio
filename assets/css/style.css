@@ -1,11 +1,10 @@
 /* main site styling */
 
    body {
-       margin: 0;
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    color: #777777;
-    background: url(../images/concrete_seamless.png) repeat;
+       font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+       font-size: 18px;
+       color: #777777;
+       background: url(../images/concrete_seamless.png) repeat;
    }
 
    a, a:visited {
@@ -16,7 +15,7 @@
 
    a:hover {
        color: #ffffff;
-       background-color: #aa4a4f;/*#ececec*/
+       background-color: #aa4a4f;
        transition: 500ms ease all;
    }
 
@@ -122,6 +121,10 @@
 
    /* styles for the about page */
 
+   .bio h1 {
+       margin-bottom: 19px;
+   }
+
    .bio .img_box {
        margin: 11px 25px 0 0;
        float: left;
@@ -199,12 +202,6 @@
        height: 40px;
        background-color: #4aaaa5;
        border: none;
-
-       border-radius: 0; /* fixing the rounded corners on iphone 7 */
-       -o-border-radius: 0;
-       -moz-border-radius: 0;
-       -webkit-border-radius: 0;
-
        font-size: 100%;
        color: #ffffff;
    }
