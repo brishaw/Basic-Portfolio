@@ -117,14 +117,12 @@
     margin-top: 43px;
     font-size: 10px;
     color: #cccccc;
-}
+    }
 
-   /* footer section p {
-       text-align: center;
-       margin-top: 43px;
-       font-size: 10px;
-       color: #cccccc;
-   } */
+    em {
+        font-style: italic;
+    }
+
 
    /* styles for the about page */
 
