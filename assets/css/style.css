@@ -112,12 +112,19 @@
        border-top: 8px solid #4aaaa5;
    }
 
-   footer section p {
+   h4 {
+    text-align: center;
+    margin-top: 43px;
+    font-size: 10px;
+    color: #cccccc;
+}
+
+   /* footer section p {
        text-align: center;
        margin-top: 43px;
        font-size: 10px;
        color: #cccccc;
-   }
+   } */
 
    /* styles for the about page */
 
